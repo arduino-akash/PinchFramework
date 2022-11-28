@@ -9,12 +9,24 @@
 /* Begin PBXBuildFile section */
 		AA8CB0B72934AE8F00AFE57B /* PinchFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = AA8CB0B62934AE8F00AFE57B /* PinchFramework.docc */; };
 		AA8CB0B82934AE8F00AFE57B /* PinchFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = AA8CB0B52934AE8F00AFE57B /* PinchFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA8CB0BF2934AEE100AFE57B /* PinchContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8CB0BE2934AEE100AFE57B /* PinchContentView.swift */; };
+		AA8CB0C12934AF6900AFE57B /* ControlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8CB0C02934AF6900AFE57B /* ControlImageView.swift */; };
+		AA8CB0C32934AF7E00AFE57B /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8CB0C22934AF7E00AFE57B /* InfoPanelView.swift */; };
+		AA8CB0C52934AF9B00AFE57B /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8CB0C42934AF9B00AFE57B /* PageModel.swift */; };
+		AA8CB0C72934AFAD00AFE57B /* PageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8CB0C62934AFAD00AFE57B /* PageData.swift */; };
+		AA8CB0C92934B00A00AFE57B /* PinchAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8CB0C82934B00900AFE57B /* PinchAssets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AA8CB0B22934AE8F00AFE57B /* PinchFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PinchFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8CB0B52934AE8F00AFE57B /* PinchFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinchFramework.h; sourceTree = "<group>"; };
 		AA8CB0B62934AE8F00AFE57B /* PinchFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = PinchFramework.docc; sourceTree = "<group>"; };
+		AA8CB0BE2934AEE100AFE57B /* PinchContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchContentView.swift; sourceTree = "<group>"; };
+		AA8CB0C02934AF6900AFE57B /* ControlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlImageView.swift; sourceTree = "<group>"; };
+		AA8CB0C22934AF7E00AFE57B /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
+		AA8CB0C42934AF9B00AFE57B /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		AA8CB0C62934AFAD00AFE57B /* PageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageData.swift; sourceTree = "<group>"; };
+		AA8CB0C82934B00900AFE57B /* PinchAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PinchAssets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +61,12 @@
 			children = (
 				AA8CB0B52934AE8F00AFE57B /* PinchFramework.h */,
 				AA8CB0B62934AE8F00AFE57B /* PinchFramework.docc */,
+				AA8CB0BE2934AEE100AFE57B /* PinchContentView.swift */,
+				AA8CB0C02934AF6900AFE57B /* ControlImageView.swift */,
+				AA8CB0C22934AF7E00AFE57B /* InfoPanelView.swift */,
+				AA8CB0C42934AF9B00AFE57B /* PageModel.swift */,
+				AA8CB0C62934AFAD00AFE57B /* PageData.swift */,
+				AA8CB0C82934B00900AFE57B /* PinchAssets.xcassets */,
 			);
 			path = PinchFramework;
 			sourceTree = "<group>";
@@ -122,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA8CB0C92934B00A00AFE57B /* PinchAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +152,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA8CB0B72934AE8F00AFE57B /* PinchFramework.docc in Sources */,
+				AA8CB0C52934AF9B00AFE57B /* PageModel.swift in Sources */,
+				AA8CB0C32934AF7E00AFE57B /* InfoPanelView.swift in Sources */,
+				AA8CB0BF2934AEE100AFE57B /* PinchContentView.swift in Sources */,
+				AA8CB0C12934AF6900AFE57B /* ControlImageView.swift in Sources */,
+				AA8CB0C72934AFAD00AFE57B /* PageData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
